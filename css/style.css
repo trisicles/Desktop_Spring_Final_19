@@ -1,0 +1,82 @@
+html{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr, 1fr, 1fr;
+    grid-gap: 10px;
+    width: 500px;
+    height: 200px;
+  }
+  
+  .island{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100vh;
+  }
+  
+  .summer{
+    font-size: 150px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #014262;
+    background-color: #FBF7EB;
+    grid-column-start: 6;
+    grid-column-end: 11;
+    position: relative;
+    top: -1000px;
+    left: 660px;
+  }
+  
+  .lorem{
+    font-family: 'Roboto Slab', serif;
+    color: #014262;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -930px;
+    left: 850px;
+    width: 590px;
+  }
+  
+  .viv{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    position: relative;
+    top: -900px;
+    left: 850px;
+    width: 590px;
+  }
+  
+  .surf{
+    width: 250px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 5%;
+    background: url('https://github.com/tyreil/final_spring_19/blob/master/assets/images/alex-shutin-203873-unsplash.jpg?raw=true');
+    background-size: cover;
+    position: relative;
+    top: -850px;
+    left: 660px;
+  }
+  
+  .tree{
+    width: 250px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 5%;
+    background: url('https://github.com/tyreil/final_spring_19/blob/master/assets/images/matthew-brodeur-428829-unsplash.jpg?raw=true');
+      background-size: cover;
+    position: relative;
+    top: -1150px;
+    left: 940px;
+  }
+  
+  .woman{
+    width: 250px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 5%;
+    background: url('https://github.com/tyreil/final_spring_19/blob/master/assets/images/chris-osmond-385532-unsplash.jpg?raw=true');
+      background-size: cover;
+    position: relative;
+    top: -1450px;
+    left: 1215px;
+  }
